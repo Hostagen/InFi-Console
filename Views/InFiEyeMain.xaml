@@ -1,0 +1,43 @@
+<Page
+    x:Class="InFi_Console.Views.InFiEyeMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InFi_Console.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:labs="using:CommunityToolkit.Labs.WinUI"
+    xmlns:l="using:InFi_Console"
+    mc:Ignorable="d">
+
+    <StackPanel Spacing="3" Margin="0 0 20 0">
+        <labs:SettingsCard
+            x:Name="BansSettingsCard"
+            Description="Bans Interactions"
+            Header="Bans"
+            Click="BansSettingsCardClicked"
+            IsClickEnabled="True">
+            <labs:SettingsCard.HeaderIcon>
+                <FontIcon Glyph="&#xE799;" />
+            </labs:SettingsCard.HeaderIcon>
+        </labs:SettingsCard>
+        <labs:SettingsCard
+            x:Name="UsersSettingsCard"
+            Description="Users Interactions"
+            Header="Users"
+            Click="BansSettingsCardClicked"
+            IsClickEnabled="True" />
+        <labs:SettingsCard
+            x:Name="GuildsSettingsCard"
+            Description="Guilds Interactions"
+            Header="Guilds"
+            Click="BansSettingsCardClicked"
+            IsClickEnabled="True" />
+        <labs:SettingsCard
+            x:Name="BadCommunitiesSettingsCard"
+            Description="Bad Communities Interactions"
+            Header="Bad Communities"
+            Click="BansSettingsCardClicked"
+            IsClickEnabled="True" />
+    </StackPanel>
+
+</Page>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "InFi-Console (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "InFi-Console (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
