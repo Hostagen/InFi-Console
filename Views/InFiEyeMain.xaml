@@ -25,19 +25,19 @@
             Description="Users Interactions"
             Header="Users"
             Click="BansSettingsCardClicked"
-            IsClickEnabled="True" />
+            IsClickEnabled="False" />
         <labs:SettingsCard
             x:Name="GuildsSettingsCard"
             Description="Guilds Interactions"
             Header="Guilds"
             Click="BansSettingsCardClicked"
-            IsClickEnabled="True" />
+            IsClickEnabled="False" />
         <labs:SettingsCard
             x:Name="BadCommunitiesSettingsCard"
             Description="Bad Communities Interactions"
             Header="Bad Communities"
             Click="BansSettingsCardClicked"
-            IsClickEnabled="True" />
+            IsClickEnabled="False" />
     </StackPanel>
 
 </Page>

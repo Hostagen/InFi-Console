@@ -58,7 +58,7 @@
                 </DataTemplate>
             </NavigationView.HeaderTemplate>
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Add" Content="InFi-EYE" Tag="InFi_Console.Views.InFiEyePage" />
+                <NavigationViewItem Icon="Add" Content="InFi-EYE" Tag="InFi_Console.Views.InFiEyeMain" />
             </NavigationView.MenuItems>
 
             <Frame x:Name="ContentFrame" Navigated="ContentFrame_Navigated" Padding="55,10,0,0">
